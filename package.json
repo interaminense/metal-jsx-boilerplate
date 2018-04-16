@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build:dev": "yarn run webpack --mode development",
+		"build:dev": "yarn run webpack --mode development --watch",
 		"build:prod": "yarn run webpack --mode production",
 		"start": "http-server . -p 4000",
 		"webpack": "webpack src/App.js --output-path='./dist/globals' --output-filename='bundle.js' --output-library Metal --output-library-target this"
