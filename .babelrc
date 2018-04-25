@@ -2,5 +2,8 @@
   "presets": [
 		"env",
 		"metal-jsx"
+	],
+	"plugins": [
+		"transform-decorators-legacy"
 	]
 }
